@@ -1,0 +1,24 @@
+{
+  "name": "bee-lib",
+  "version": "1.0.0",
+  "description": "bee的通用工具库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijuntao/bee-lib.git"
+  },
+  "keywords": [
+    "bee",
+    "common",
+    "lib"
+  ],
+  "author": "ljt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lijuntao/bee-lib/issues"
+  },
+  "homepage": "https://github.com/lijuntao/bee-lib#readme"
+}
