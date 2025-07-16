@@ -1,24 +1,24 @@
 {
   "name": "bee-lib",
   "version": "1.0.0",
-  "description": "bee的通用工具库",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lijuntao/bee-lib.git"
-  },
-  "keywords": [
-    "bee",
-    "common",
-    "lib"
+  "type": "module",
+  "files": [
+    "dist"
   ],
-  "author": "ljt",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lijuntao/bee-lib/issues"
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.umd.cjs"
   },
-  "homepage": "https://github.com/lijuntao/bee-lib#readme"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  },
+  "peerDependencies": {
+    "lodash-es": "^4.17.21"
+  }
 }
